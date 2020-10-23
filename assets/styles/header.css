@@ -1,4 +1,10 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #00000063;
+}
 .contenedor-header{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     height: 1.7em;

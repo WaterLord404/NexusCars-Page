@@ -1,0 +1,11 @@
+.white{
+    color: white;
+}
+  
+.roboto-light{
+    font-family: 'Roboto', sans-serif;
+}
+
+.black85{
+    background-color: rgba(0, 0, 0, 0.85);
+}

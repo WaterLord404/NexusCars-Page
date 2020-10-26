@@ -1,32 +1,32 @@
-body{
+*{
     margin: 0%;
     padding: 0%;
+}
+
+body{
     background-color: #00000063;
 }
 .contenedor-header{
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    padding: 0.23em;
 }
 
 .menu{
     width: 35%;
-    height: 100%;
     display: flex;
     align-self: center;
     justify-content: center;
-    
+    margin-left: 0.2em;
 }
 .menu img{
     align-self: center;
     width: 100%;
-    height: 60%;
 }
 
 
 .logo{
     width: 130%;
-    height: 100%;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -36,41 +36,45 @@ body{
 .logo img{
     align-self: center;
     width: 100%;
-    height: 60%;    
 }
 
 .search-bar{
+    width: 100%;
     display: flex;
-    width: 150%;
     margin-left: 10%;
+    background-color: lightgray;
+    align-self: center;
+    border-radius: 1em;
 }
+.search-bar-bar{
+    display: flex;
+    align-self: center;
+    width: 100%;
+}
+.search-bar-img{
+    display: flex;
+    width: 33%;
+    align-self: center;
+}
+
 .search-bar input{
     width: 100%;
-    height: 60%;
-    align-self: center;
     border: none;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    background-color: lightgray;
+    background-color: rgb(0,0,0,0);
 }
+
 .search-bar img{
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 25%;
-    height: 60%;
-    padding: 1px;
-    align-self: center;
-    background-color: lightgrey;
+    width: 60%;
 }
 
 .icons{
     display: flex;
     justify-content: space-around;
-    margin-left: 5%;
+    margin-left: 3%;
     width: 150%;
 }
+
 .icons img{
     align-self: center;
     width: 20%;
-    height: 80%;
 } 

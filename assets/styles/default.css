@@ -2,8 +2,30 @@
     box-sizing: border-box
 }
 
-.botones{
+.botones1{
+    height: 25em;
     padding: 0.5em;
+    background-image: url("/assets/video/cayenne-platinum-edition1_1_0.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.botones2{
+    height: 25em;
+    padding: 0.5em;
+    background-image: url("/assets/video/718_cayman_2_1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.botones3{
+    height: 25em;
+    padding: 0.5em;
+    background-image: url("/assets/video/718-cayman2_2.gif" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .boton-slider{
     height: 2.5em;
@@ -11,7 +33,9 @@
     border: 1px solid white;
     background-color: rgba(0,0,0,0);
 }
-
+.slides img{
+    height: 25em;
+}
 .boton-slider:hover{
     color:black;
     border: 1px solid white;
@@ -19,7 +43,7 @@
 }
 /* Slideshow container */
 .slideshow-container {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.8);
     max-width: 1000px;
     position: relative;
     margin: auto;

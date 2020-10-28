@@ -126,6 +126,22 @@
     animation-duration: 1.5s;
 }
 
+
+
+.slider-fotos{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: salmon;
+    width: 100%;
+}
+.slider-fotos img{
+    width: 50%;
+    margin: 3%;
+}
+
+
+
 @-webkit-keyframes fade {
     from {
         opacity: .4

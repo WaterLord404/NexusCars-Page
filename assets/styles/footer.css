@@ -1,3 +1,7 @@
+footer {
+  display: block;
+}
+
 .contenedor-columna{
     display: flex;
     justify-content: space-around;
@@ -38,6 +42,9 @@
   font-size: small;
 }
 
+.rrss-icon {
+  width: 1%;
+}
 
 .rrss{
   display: flex;

@@ -1,10 +1,22 @@
 footer {
-  display: block;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.white-text {
+  color: white;
 }
 
 .contenedor-columna{
+    width: 100%;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
+    align-items: flex-start;
+    margin: 5% 0;
 }
 
 .columna{
@@ -15,8 +27,9 @@ footer {
     margin-top: 15%;
     margin-bottom: 15%;
     list-style-type: none;
-}
-.columna h3{
+} 
+
+li h3 {
     font-size: 120%;
     margin-top: 15%;
     margin-bottom: 20%;
@@ -35,24 +48,26 @@ footer {
   align-content: center;
   display: flex;
   align-self: center;
-}
-
-.copyright p{
   color: #6D6D6D;
   font-size: small;
 }
 
 .rrss-icon {
-  width: 1%;
+  width: 7%;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
 }
 
 .rrss{
   display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
   width: 30%;
   margin-right: 1%;
 }
-.rrss img{
-  margin: 5%;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+
+.rrss img {
+  margin: 3%;
+
 }

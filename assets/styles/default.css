@@ -1,5 +1,4 @@
 
-
 .botones1{
     height: 25em;
     padding: 0.5em;
@@ -140,19 +139,168 @@
 }
 
 .galeria{
+    justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 99%;
-    background-color: aquamarine;
+    width: 100%;
 }
 
 .big-galeria{
-    background: url("/assets/img/cars/coche1.jpg");
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("/assets/img/cars/deportivo1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 98%;
-    margin: 1%;
+    margin: 0.5%;
     height: 15em;
+}
+.big-galeria h1{
+    color: white;
+    margin: 3%;
+}
+.big-galeria button{
+    width: 40%;
+    margin: 3%;
+    height: 2.5em;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0);
+}
+.big-galeria button:hover{
+    width: 40%;
+    margin: 3%;
+    height: 2.5em;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.big-galeria2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("/assets/img/cars/deportivo2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98%;
+    margin: 0.5%;
+    height: 15em;
+}
+.big-galeria2 h1{
+    color: white;
+    margin: 3%;
+}
+.big-galeria2 button{
+    width: 40%;
+    margin: 3%;
+    height: 2.5em;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0);
+}
+.big-galeria2 button:hover{
+    width: 40%;
+    margin: 3%;
+    height: 2.5em;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+}
+.small-galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url("/assets/img/cars/deportivo3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 48%;
+    margin: 0.5%;
+    height: 15em;
+}
+.small-galeria h1{
+    color: white;
+    margin: 3%;
+}
+.small-galeria button{
+    width: 40%;
+    margin: 3%;
+    height: 2.5em;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0);
+}
+.small-galeria button:hover{
+    width: 40%;
+    margin: 3%;
+    height: 2.5em;
+    color: black;
+    border: 1px solid white;
+    background-color:white;
+}
+.small-galeria2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url("/assets/img/cars/deportivo4.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 48%;
+    margin: 0.5%;
+    height: 15em;
+}
+.small-galeria2 h1{
+    color: white;
+    margin: 3%;
+}
+.small-galeria2 button{
+    width: 40%;
+    margin: 3%;
+    height: 2.5em;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0);
+}
+.small-galeria2 button:hover{
+    width: 40%;
+    margin: 3%;
+    height: 2.5em;
+    color: black;
+    border: 1px solid white;
+    background-color:white;
+}
+
+.config-container{
+    background-color: aquamarine;
+    width: 100%;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.opcion{
+    align-content: center;
+    justify-content: center;
+    margin: 3%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 25%;
+    height: 85%;
+}
+
+.opcion img{
+    width: 100%;
+    height: 6em;
 }
 
 

@@ -5,6 +5,8 @@
 
 <body>
     {% include header.html %}
+    <main>
+    {% include up.html %}
     <div class="slideshow-container">
 
         <!-- Full-width images with number and caption text -->
@@ -62,19 +64,36 @@
         </div>
         <div class="small-galeria">
             <h1>Plan Renove</h1>
-            <button class="boton-galeria">Más Información</button>
+            <button class="boton-galeria">Configurar</button>
         </div>
-        <div class="small-galeria">
+        <div class="small-galeria2">
             <h1>Gama Eficiente</h1>
-            <button class="boton-galeria">Más Información</button>
+            <button class="boton-galeria">Descubrir</button>
         </div>
-        <div class="big-galeria">
+        <div class="big-galeria2">
             <h1>Deportivos</h1>
-            <button class="boton-galeria">Más Información</button>
+            <button class="boton-galeria">Saber más</button>
+        </div>
+    </div>
+
+    <div class="config-container">
+        <div class="opcion">
+            <img src="/assets/img/cars/coche1.jpg" alt="img">
+            <p>Pide tu oferta</p>
+            
+        </div>
+        <div class="opcion">
+            <img src="/assets/img/cars/coche1.jpg" alt="img">       
+            <p>Configura tu coche</p>
+        </div>
+        <div class="opcion">
+            <img src="/assets/img/cars/coche1.jpg" alt="img">       
+            <p>Prueba de conducción</p>
         </div>
     </div>
     {% include footer.html %}
     <script src="/assets/js/default.js"></script>
+</main>
 </body>
 
 </html>

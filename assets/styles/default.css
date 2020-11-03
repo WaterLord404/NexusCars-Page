@@ -126,18 +126,33 @@
     animation-duration: 1.5s;
 }
 
-
-
 .slider-fotos{
     display: flex;
     justify-content: center;
     align-items:center;
-    background-color: salmon;
     width: 100%;
+    height: 10em;
+    margin-left: 2%;
 }
 .slider-fotos img{
-    width: 50%;
-    margin: 3%;
+    width: 90%;
+    margin: 2%;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 99%;
+    background-color: aquamarine;
+}
+
+.big-galeria{
+    background: url("/assets/img/cars/coche1.jpg");
+    
+    width: 98%;
+    margin: 1%;
+    height: 15em;
 }
 
 

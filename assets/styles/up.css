@@ -1,0 +1,13 @@
+.up {
+    border-radius: 100%;
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    z-index: 1;
+    width: 5%;
+}
+.up-img {
+    background-color: rgba(255, 255, 255, 0.145);
+    border-radius: 100%;
+    width: 100%;
+}

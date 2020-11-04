@@ -1,6 +1,10 @@
 *{
     margin: 0%;
     padding: 0%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+
 }
 
 html, body {
@@ -13,15 +17,6 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-around;
-}
-
-
-.white{
-    color: white;
-}
-  
-.roboto-light{
-    font-family: 'Roboto', sans-serif;
 }
 
 .black85{

@@ -1,7 +1,6 @@
 *{
     margin: 0%;
     padding: 0%;
-    color: white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -15,6 +14,10 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-around;
+}
+
+.white-text{
+    color: white;
 }
 
 .black85{

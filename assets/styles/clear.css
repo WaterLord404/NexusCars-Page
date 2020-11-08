@@ -49,6 +49,8 @@ a {
   font-size:100%;
   vertical-align:baseline;
   background:transparent;
+  color: white;
+  text-decoration: none; /* no underline */
 }
 
 /* change colours to suit your needs */

@@ -1,0 +1,39 @@
+/* div contenedor de */
+.container {
+    background-color: aquamarine;
+    display: flex;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+/* Botones*/
+.container button {
+    border: none;
+    border-radius: 3px;
+    background-color: lightgray;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    border-radius: 3px;
+    background-color: darkgray;
+}
+
+/* Estilos del div que contiene la parte de la consulta*/
+.consulta {
+    width: 100%;
+}
+/* Estilo del input*/
+.consulta input {
+    padding: 2px;
+    background: rgb(202, 202, 202);
+    border-radius: 91px;
+    border: none;
+}
+
+.botones{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}

@@ -144,7 +144,8 @@
 }
 
 .galeria{
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -226,7 +227,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 49%;
-    margin: 0.5%;
+    margin: 0.5% 0;
     height: 15em;
 }
 .small-galeria h1{
@@ -259,7 +260,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 49%;
-    margin: 0.5%;
+    margin: 0.5% 0;
     height: 15em;
 }
 .small-galeria2 h1{
@@ -285,7 +286,7 @@
 
 .config-container{
     width: 100%;
-    height: 10em;
+    height: 9em;
     display: flex;
     justify-content: center;
     align-content: center;

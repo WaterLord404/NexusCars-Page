@@ -1,12 +1,19 @@
-.title {
+main {
+    display: flex; 
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-filters {
     text-align: center;
     margin-top: 10px;
     font-size: xx-large;
+    margin-left: 30%;
 }
 .gallery-category {
     display: flex;
     flex-wrap: wrap;
-    padding: 3%;
     justify-content: space-evenly;
 }
 
@@ -14,6 +21,54 @@
     width: 100%;
     height: 100%;
     margin: 3%;
+}
+
+.img-car {
+    width: 100%;
+    height: 100%;
+}
+
+.filtros-desplegables {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 90%;
+    padding: 2%;
+}
+
+.filtros-header {
+    padding: 0 10% 0 20%;
+    margin: 0% 1%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    background-color: rgba(225, 225, 225, 0.57);
+    border: 1px solid lightslategrey;
+    border-bottom: none;
+}
+
+.filtros-body {
+    width: 70%;
+    padding: 0 10% 0 20%;
+    margin: 0 0;
+    background-color: rgba(225, 225, 225, 0.57);
+    border: 1px solid lightslategrey;
+    border-top: none;
+}
+
+
+.arrow-icon {
+    width: 3em;
+    height: 3em;
+}
+
+
+
+.list-extra {
+    display: none;
 }
 
 @media (min-width: 700px) {
@@ -29,9 +84,8 @@
         width: 27%;
         height: 27%;
     }
- }
 
-.img-car {
-    width: 100%;
-    height: 100%;
-}
+    .list-extra {
+        display: block;
+    }
+ }

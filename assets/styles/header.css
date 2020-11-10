@@ -73,5 +73,9 @@ header {
 
 .icons img{
     align-self: center;
+    width: 100%;
+} 
+.icons a{
+    align-self: center;
     width: 20%;
 } 

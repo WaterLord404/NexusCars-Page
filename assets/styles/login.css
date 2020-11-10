@@ -1,13 +1,28 @@
-/* div contenedor de */
-.container {
-    background-color: aquamarine;
+.containerlogin {
     display: flex;
-    padding: 30px;
     border-radius: 10px;
+    background-color: white;
+    flex-flow: row nowrap;
     width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.login {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    padding: 5%;
+    border-right: 1px solid black;
+}
+.botoneslogin{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 /* Botones*/
-.container button {
+.login button {
+    width: 45%;
     border: none;
     border-radius: 3px;
     background-color: lightgray;
@@ -15,25 +30,13 @@
     cursor: pointer;
 }
 
-.container button:hover {
+.login button:hover {
     border-radius: 3px;
     background-color: darkgray;
 }
-
-/* Estilos del div que contiene la parte de la consulta*/
-.consulta {
-    width: 100%;
-}
-/* Estilo del input*/
-.consulta input {
+.login input {
     padding: 2px;
     background: rgb(202, 202, 202);
     border-radius: 91px;
     border: none;
-}
-
-.botones{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
 }

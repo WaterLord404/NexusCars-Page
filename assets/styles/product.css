@@ -1,0 +1,80 @@
+.contenedor-coche{
+    margin-top: 15%;
+    display: flex;
+    flex-flow: row wrap;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-coche img{
+    width: 100%;
+}
+
+
+.contenedor-coche h3{
+    font-size: x-large;
+}
+
+.colores-coche{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.colores-coche #blue{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(0, 48, 180) , rgb(180, 180, 180));
+    margin: 1%;
+}
+.colores-coche #red{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(173, 0, 0) , rgb(180, 180, 180));
+    margin: 1%;
+}
+.colores-coche #white{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(253, 253, 253) , rgb(180, 180, 180));
+    margin: 1%;
+}
+.colores-coche #black{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(39, 39, 39) , rgb(180, 180, 180));
+    margin: 1%;
+}
+
+#tapiceria{
+    margin-bottom: 5%;
+}
+
+.galeria-tapiceria{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+.galeria-tapiceria img{
+   width: 35%;
+}
+
+.contenedor-caracteristicas{
+    margin-bottom: 5%;
+}
+
+#text{
+    margin-top: 2%;
+}

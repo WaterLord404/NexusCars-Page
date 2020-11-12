@@ -9,10 +9,13 @@ footer {
 .contenedor-columna{
     width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-around;
     align-items: flex-start;
 }
+
+
+
 
 .columna{
     text-align: center;
@@ -30,6 +33,37 @@ li h3 {
     margin-bottom: 8%;
     list-style-type: none;
 }
+
+.li-esconder {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .columna-esconder {
+    display: none;
+  }
+  
+  .li-esconder {
+    display:block
+  }
+  .columna{
+    text-align: center;
+}
+
+.columna li{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    list-style-type: none;
+} 
+
+li h3 {
+    font-size: 120%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    list-style-type: none;
+}
+}
+
 
 .copyright-rrss{
   display: flex;

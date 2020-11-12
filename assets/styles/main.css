@@ -4,17 +4,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
+main {
+    display: block;
+    margin-top: 9%;
 }
 
-body {
+footer {
     display: block;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 9%;
+    position: relative;
+    bottom: 0;
 }
 
 .white-text {

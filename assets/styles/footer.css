@@ -1,4 +1,4 @@
-footer {
+.footer {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -13,9 +13,6 @@ footer {
     justify-content: space-around;
     align-items: flex-start;
 }
-
-
-
 
 .columna{
     text-align: center;

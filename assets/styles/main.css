@@ -11,6 +11,7 @@ main {
     align-items: center;
     justify-content: center;
     min-height: 70vh;
+    width: 100%;
 }
 
 .black85 {

@@ -1,15 +1,31 @@
-.containercontacto {
+.contact {
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
-    margin-bottom: 5%;
-    margin-top: 15%;
 }
 
-.contacto {
+.contact__title {
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.contact__phone-mail, .contact__shop {
     display: flex;
     flex-flow: column nowrap;
-    text-align: center;
-    justify-items: center;
-    width:  100%;
+    justify-content: center;
+    align-items: center;
 }
 
+.contact__phone-mail__title, .contact__shop__title {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.contact__phone-mail__text, .contact__shop__text, .contact__phone-mail__text__link {
+    margin-bottom: 2%;
+    color: black;
+}

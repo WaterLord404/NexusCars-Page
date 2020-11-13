@@ -6,7 +6,7 @@
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-.contenedor-columna{
+.footer__columns-container {
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -14,11 +14,11 @@
     align-items: flex-start;
 }
 
-.columna{
+.footer__colums-container__column {
     text-align: center;
 }
 
-.columna li{
+.footer__columns-container__column__element {
     margin-top: 5%;
     margin-bottom: 5%;
     list-style-type: none;
@@ -31,7 +31,7 @@ li h3 {
     list-style-type: none;
 }
 
-.li-esconder {
+.footer__element--hide {
   display: none;
 }
 

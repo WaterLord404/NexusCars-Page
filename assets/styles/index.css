@@ -88,12 +88,10 @@
 }
 .index__slider__container__image {
     width: 95%;
-    border: 1px solid black;
     border-radius: 1px;
 }
 
 .index__slider__container__button {
-    border: 2px solid black;
     border-radius: 2px;
     width: 90%;
     margin-top: 3%;
@@ -143,7 +141,7 @@
     font-size: large;
     margin: 3%;
     padding: 2%;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 2px;
 }
 
@@ -174,7 +172,7 @@
 }
 .index__contact__option__text {
     font-size: larger;
-    font-weight: bold;
+    
     margin-top: 10%;
     text-align: center;
 }
@@ -182,17 +180,18 @@
 .index__banner {
     position: relative;
     width: 100%;
+    height: 40%;
 }
 
 .index__banner__image {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .index__banner__text {
     position: absolute;
     top: 0;
-    font-size: larger;
+    font-size: x-large;
     color: white;
     padding: 3%;
 }
@@ -203,6 +202,7 @@
     width: 40%;
     margin: 3%;
     height: 2.5em;
+    font-size: larger;
     color: white;
     border: 1px solid white;
     background-color: rgba(0,0,0,0);
@@ -219,17 +219,22 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
+    margin: 3%;
     width: 100%;
-    padding: 3% 0;
+}
+.index__adds__container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+.index__adds__container__image {
+   width: 95%;
+   border-radius: 1px;
 }
 
-.index__adds__image {
-    width: 97%;
-    height: auto;
-}
-
-.index__adds__text {
+.index__adds__container__text {
     text-align: center;
     font-size: larger;
     color: black;

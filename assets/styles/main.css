@@ -6,17 +6,10 @@
 
 
 main {
+    margin-top: 3%;
     display: flex; 
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     min-height: 70vh;
-}
-
-.black85 {
-    background-color: rgba(0, 0, 0, 0.85);
-}
-
-.white-text{
-    color: white;
 }

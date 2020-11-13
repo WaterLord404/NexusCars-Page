@@ -14,25 +14,21 @@
     width: 100%;
     border: none;
     border-radius: 3px;
-    background-color: lightgray;
+    background-color: #f0f0f0;
     padding: 6px;
     cursor: pointer;
 }
 
-.support button:hover {
-    border-radius: 3px;
-    background-color: darkgray;
-}
 .support input {
     padding: 2px;
-    background: rgb(202, 202, 202);
+    background: #f0f0f0;
     border-radius: 91px;
     border: none;
 }
 
 .support textarea {
     padding: 2px;
-    background: rgb(202, 202, 202);
+    background: #f0f0f0;
     border-radius: 5px;
     border: none;
 }

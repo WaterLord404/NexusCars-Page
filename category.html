@@ -3,12 +3,12 @@ layout: default
 ---
 
 <main>
-    <div class="filtros-desplegables">
-        <div class="filtros-header">
-            <h1 class="title-filters">Filtros</h1>
-            <svg class="arrow-icon" height="128px" id="Layer_1" style="enable-background:new 0 0 128 128;" version="1.1"
-                viewBox="0 0 128 128" width="128px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="category__filters">
+        <div class="category__filters__header">
+            <h1 class="category__filters__header__title">Filtros</h1>
+            <svg class="category__filters__header__arrow" height="128px" id="Layer_1"
+                style="enable-background:new 0 0 128 128;" version="1.1" viewBox="0 0 128 128" width="128px"
+                xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g>
                     <line style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-miterlimit:10;"
                         x1="111" x2="64" y1="40.5" y2="87.499" />
@@ -17,33 +17,32 @@ layout: default
                 </g>
             </svg>
         </div>
-        <div class="filtros-body">
-            <ul class="menu-li">
-
+        <div class="category__filters__body">
+            <ul class="category__filters__body__list">
                 <li>
-                    <h1>Ordenar por: </h1>
-                    <ul>
+                    <h1 class="category__filters__body__title">Ordenar por: </h1>
+                    <ul class="category__filters__body__final-list">
                         <li> <input type="checkbox" name="opciones" id="opcion1">
                             <label for="opcion1">Opcion 1</label>
                         </li>
-                        <li> <input type="checkbox" name="opciones" id="opcion1">
-                            <label for="opcion1">Opcion 1</label>
+                        <li> <input type="checkbox" name="opciones" id="opcion2">
+                            <label for="opcion2">Opcion 2</label>
                         </li>
-                        <li><input type="checkbox" name="opciones" id="opcion1">
-                            <label for="opcion1">Opcion 1</label>
+                        <li><input type="checkbox" name="opciones" id="opcion2">
+                            <label for="opcion3">Opcion 3</label>
                         </li>
                     </ul>
 
                 </li>
                 <li>
-                    <h1>Rango de Precio:</h1>
-                    <input class="price-input" type="number" name="minValue" id="minValue">
-                    <span> - </span>
-                    <input class="price-input" type="number" name="maxValue" id="maxValue">
+                    <h1 class="category__filters__body__title">Rango de Precio:</h1>
+                    <input class="category__filters__body__price-input" type="number" name="minValue" id="minValue">
+                    <span class="category__filters__body__price-separator"> - </span>
+                    <input class="category__filters__body__price-input" type="number" name="maxValue" id="maxValue">
                 </li>
-                <li class="list-extra">
-                    <h1>Otras Categorias</h1>
-                    <ul>
+                <li class="category__filters__body__extra">
+                    <h1 class="category__filters__body__title">Otras Categorias</h1>
+                    <ul class="category__filters__body__final-list">
                         <li>Otra Categoria 1</li>
                         <li>Otra Categoria 2</li>
                         <li>Otra Categoria 3</li>
@@ -52,82 +51,84 @@ layout: default
             </ul>
         </div>
     </div>
-    <article class="gallery-category">
-        <div class="product">
+
+
+    <article class="category__gallery">
+        <div class="category__gallery__product">
             <div class="img-structure">
-                <img class="img-car" src="assets/img/cars/coche1.jpg" alt="">
+                <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
                 <div class="cars-btn">
                     <p>Mas Informacion</p>
                 </div>
             </div>
             <p>Lorem ipsum dolor sit </p>
         </div>
-        <div class="product">
+        <div class="category__gallery__product">
             <div class="img-structure">
-                <img class="img-car" src="assets/img/cars/coche1.jpg" alt="">
+                <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
                 <div class="cars-btn">
                     <p>Mas Informacion</p>
                 </div>
             </div>
             <p>Lorem ipsum dolor sit </p>
         </div>
-        <div class="product">
+        <div class="category__gallery__product">
             <div class="img-structure">
-                <img class="img-car" src="assets/img/cars/coche1.jpg" alt="">
+                <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
                 <div class="cars-btn">
                     <p>Mas Informacion</p>
                 </div>
             </div>
             <p>Lorem ipsum dolor sit </p>
         </div>
-        <div class="product">
+        <div class="category__gallery__product">
             <div class="img-structure">
-                <img class="img-car" src="assets/img/cars/coche1.jpg" alt="">
+                <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
                 <div class="cars-btn">
                     <p>Mas Informacion</p>
                 </div>
             </div>
             <p>Lorem ipsum dolor sit </p>
         </div>
-        <div class="product">
+        <div class="category__gallery__product">
             <div class="img-structure">
-                <img class="img-car" src="assets/img/cars/coche1.jpg" alt="">
+                <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
                 <div class="cars-btn">
                     <p>Mas Informacion</p>
                 </div>
             </div>
             <p>Lorem ipsum dolor sit </p>
         </div>
-        <div class="product">
+        <div class="category__gallery__product">
             <div class="img-structure">
-                <img class="img-car" src="assets/img/cars/coche1.jpg" alt="">
+                <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
                 <div class="cars-btn">
                     <p>Mas Informacion</p>
                 </div>
             </div>
             <p>Lorem ipsum dolor sit </p>
         </div>
-        <div class="product">
+        <div class="category__gallery__product">
             <div class="img-structure">
-                <img class="img-car" src="assets/img/cars/coche1.jpg" alt="">
+                <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
                 <div class="cars-btn">
                     <p>Mas Informacion</p>
                 </div>
             </div>
             <p>Lorem ipsum dolor sit </p>
         </div>
-        <div class="product">
+        <div class="category__gallery__product">
             <div class="img-structure">
-                <img class="img-car" src="assets/img/cars/coche1.jpg" alt="">
+                <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
                 <div class="cars-btn">
                     <p>Mas Informacion</p>
                 </div>
             </div>
             <p>Lorem ipsum dolor sit </p>
         </div>
-        <div class="product">
+        <div class="category__gallery__product">
             <div class="img-structure">
-                <img class="img-car" src="assets/img/cars/coche1.jpg" alt="">
+                <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
                 <div class="cars-btn">
                     <p>Mas Informacion</p>
                 </div>

@@ -1,5 +1,5 @@
 
-.filtros-desplegables {
+.category__filters {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,32 +9,7 @@
     margin-top: 10%;
 }
 
-.title-filters {
-    text-align: center;
-    margin-top: 10px;
-    font-size: xx-large;
-    margin-left: 30%;
-}
-.gallery-category {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.product {
-    width: 100%;
-    height: 100%;
-    margin: 3%;
-}
-
-.img-car {
-    width: 100%;
-    height: 100%;
-}
-
-
-
-.filtros-header {
+.category__filters__header {
     padding: 0 10% 0 20%;
     margin: 0% 1%;
     width: 70%;
@@ -47,7 +22,21 @@
     border-bottom: none;
 }
 
-.filtros-body {
+.category__filters__header__title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: xx-large;
+    margin-left: 30%;
+}
+
+.category__filters__header__arrow {
+    width: 2.3em;
+    height: 2.3em;
+}
+
+
+
+.category__filters__body {
     width: 100%;
     margin: 0 0;
     background-color: rgba(225, 225, 225, 0.57);
@@ -59,23 +48,23 @@
     align-items: flex-start;
 }
 
-
-.arrow-icon {
-    width: 2.3em;
-    height: 2.3em;
+.category__filters__body__list {
+    list-style: none;
+}
+.category__filters__body__final-list {
+    margin: 2% 5%;
+    list-style: none;
 }
 
-.menu-li li h1 {
+.category__filters__body__title {
     margin-top: 10px;
     font-size: larger;
     margin-left: 2%;
 }
 
-.menu-li li ul {
-    margin: 2% 5%;
-}
 
-.price-input {
+
+.category__filters__body__price-input {
     padding: 1%;
     border: none;
     border-bottom: 1px solid black;
@@ -85,20 +74,33 @@
     width: 20%
 }
 
-li span {
+.category__filters__body__price-separator {
     margin-left: 5%;
 }
 
-.filtros-header-bottom {
-    border-bottom: 1px solid black;
-}
-
-.list-extra {
+.category__filters__body__extra {
     display: none;
 }
 
-@media (min-width: 700px) {
-    .product {
+.category__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.category__gallery__product {
+    width: 100%;
+    height: 100%;
+    margin: 3%;
+}
+
+.category__gallery__product__image {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .category__gallery__product {
         width: 45%;
         height: 45%;
         margin: 2%;
@@ -106,12 +108,12 @@ li span {
  }
 
  @media (min-width: 1366px) {
-    .product {
+    .category__gallery__product {
         width: 27%;
         height: 27%;
     }
 
-    .list-extra {
+    .category__filters__body__extra {
         display: block;
     }
  }

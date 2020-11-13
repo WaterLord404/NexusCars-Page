@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: space-between;
     flex-flow: row nowrap;
-    background-color: rgba(225, 225, 225, 0.57);
+    background-color:#f0f0f0;
     border: 1px solid lightslategrey;
     border-bottom: none;
 }
@@ -39,7 +39,7 @@
 .category__filters__body {
     width: 100%;
     margin: 0 0;
-    background-color: rgba(225, 225, 225, 0.57);
+    background-color: #f0f0f0;
     border: 1px solid lightslategrey;
     border-top: none;
     display: flex;

@@ -11,7 +11,7 @@
     display: none;
 }
 
-drop-down-menu__list, .drop-down-submenu__list {
+.drop-down-menu__list, .drop-down-submenu__list {
     width: 100%;
     display: flex;
     flex-direction: column;

@@ -1,22 +1,16 @@
-.containersoporte {
+
+.support{
     display: flex;
     flex-flow: column nowrap;
-    width: 100%;
+    height: 100%;
 }
 
-.soporte {
-    display: flex;
-    flex-flow: column nowrap;
-    width: 90%;
-    margin: 5%;
+.support *{
+    margin-bottom: 5%;
 }
-.botonessoporte{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-}
+
 /* Botones*/
-.soporte button {
+.support button {
     width: 100%;
     border: none;
     border-radius: 3px;
@@ -25,18 +19,18 @@
     cursor: pointer;
 }
 
-.soporte button:hover {
+.support button:hover {
     border-radius: 3px;
     background-color: darkgray;
 }
-.soporte input {
+.support input {
     padding: 2px;
     background: rgb(202, 202, 202);
     border-radius: 91px;
     border: none;
 }
 
-.soporte textarea {
+.support textarea {
     padding: 2px;
     background: rgb(202, 202, 202);
     border-radius: 5px;

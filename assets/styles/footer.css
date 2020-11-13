@@ -1,4 +1,6 @@
+
 .footer {
+  
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -24,7 +26,7 @@
     list-style-type: none;
 } 
 
-li h3 {
+.footer li h3 {
     font-size: 120%;
     margin-top: 8%;
     margin-bottom: 8%;
@@ -53,7 +55,7 @@ li h3 {
     list-style-type: none;
 } 
 
-li h3 {
+.footer li h3 {
     font-size: 120%;
     margin-top: 2%;
     margin-bottom: 2%;

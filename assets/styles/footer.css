@@ -15,87 +15,79 @@
     justify-content: space-around;
     align-items: flex-start;
 }
-
 .footer__colums-container__column {
-    text-align: center;
+  margin: 2%;
+  text-align: center;
 }
-
-.footer__columns-container__column__element {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    list-style-type: none;
-} 
-
-.footer li h3 {
-    font-size: 120%;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    list-style-type: none;
-}
-
-.footer__element--hide {
+.footer__columns-container__column--extra {
   display: none;
 }
 
-@media (max-width: 700px) {
-  .columna-esconder {
-    display: none;
-  }
-  
-  .li-esconder {
-    display:block
-  }
-  .columna{
-    text-align: center;
-}
-
-.columna li{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    list-style-type: none;
+.footer__columns-container__column__element,
+.footer__columns-container__column__element--extra {
+  color: white;
+  font-size: 1.2em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  list-style: none;
+  text-emphasis: none;
+  text-decoration: none;
 } 
 
-.footer li h3 {
-    font-size: 120%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    list-style-type: none;
-}
+.footer__columns-container__column__title {
+    font-size: 1.7em;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    text-decoration: underline;
 }
 
 
-.copyright-rrss{
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+  .footer__columns-container__column--extra {
+    display: block;
+    margin: 2%;
+    text-align: center;
+  } 
+
+  .footer__columns-container__column__element--extra {
+    display: none;
+  }
+}
+
+
+.footer__copyright {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
-  
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 1% 0;
 }
 
-.copyright{
-  margin-left: 1%;
+.footer__copyright__text {
+  margin-left: 3%;
   align-content: center;
   display: flex;
   align-self: center;
-  color: #6D6D6D;
-  font-size: small;
+  color: white;
+  font-size: 100%;
 }
 
-.rrss-icon {
-  width: 7%;
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
-}
-
-.rrss{
+.footer__copyright__social {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-around;
   width: 30%;
+  height: fit-content;
   margin-right: 1%;
 }
 
-.rrss img {
-  margin: 3%;
-
+.footer__copyright__social__icon {
+  width: 14%;
+  height: 14%;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
 }

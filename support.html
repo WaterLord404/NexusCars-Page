@@ -3,9 +3,12 @@ layout: default
 ---
 
 <main class="support">
-    <h1>¿Necesitas ayuda?</h1>
-
-    <input placeholder="Asunto"="text" name="asunto">
-    <textarea placeholder="Mensaje" name="msj" id="msj"></textarea>
-    <button>Enviar</button>
+    <form class="support__form" action="">
+        <fieldset class="support__form__title">¿Necesitas ayuda?</fieldset>
+        <input class="support__form__input" type="text" placeholder="Nombre">
+        <input class="support__form__input" type="email" placeholder="Email">
+        <input class="support__form__input" type="text" placeholder="Asunto">
+        <textarea class="support__form__textarea" placeholder="Escribe el mensaje aqui..."></textarea>
+        <button class="support__form__button">Enviar</button>
+    </form>
 </main>

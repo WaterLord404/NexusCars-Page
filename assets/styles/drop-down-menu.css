@@ -48,3 +48,17 @@
     display: block;
     padding-left: 10%;
 }
+
+@media (min-width: 768px) {
+    .drop-down-menu {
+        top: 4.2%;
+    }
+    .drop-down-menu__list__element {
+        padding: 3% 3%;
+        font-size: 2em;
+    }
+    .drop-down-submenu__list__element {
+        padding: 1.7% 4%;
+        font-size: 1.9em;
+    }
+}

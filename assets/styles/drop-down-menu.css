@@ -1,6 +1,7 @@
 .drop-down-menu {
     width: 100%;
-    height: 50%;
+    height: fit-content;
+    padding-bottom: 3%;
     position: fixed;
     top: 3.7%;
     left: 0;

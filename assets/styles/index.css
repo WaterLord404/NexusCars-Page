@@ -96,7 +96,7 @@
     width: 90%;
     margin-top: 3%;
     padding: 2%;
-    font-size: large;
+    font-size: larger;
     text-align: center;
 }
 
@@ -138,7 +138,7 @@
     left: 0;
     z-index: 1;
     color: white;
-    font-size: large;
+    font-size: larger;
     margin: 3%;
     padding: 2%;
     border: 1px solid white;
@@ -167,8 +167,8 @@
 }
 
 .index__contact__option__image {
-    width: 75%;
-    height: 70%;
+    width: 70%;
+   
 }
 .index__contact__option__text {
     font-size: larger;
@@ -191,14 +191,14 @@
 .index__banner__text {
     position: absolute;
     top: 0;
-    font-size: x-large;
+    font-size: larger;
     color: white;
     padding: 3%;
 }
 .index__banner__button {
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     width: 40%;
     margin: 3%;
     height: 2.5em;

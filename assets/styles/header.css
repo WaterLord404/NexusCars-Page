@@ -21,7 +21,7 @@
    width:  49%;
 }
 
-.header__button{
+.header__button {
     width: 15%;
 }
 
@@ -29,7 +29,7 @@
     width: 80%;
 }
 
-.header__logo-link{
+.header__logo-link {
     width: 100%;
 }
 
@@ -39,7 +39,7 @@
 }
 
 
-.header__right{
+.header__right {
     display: flex;
    flex-flow: row nowrap;
    justify-content: center;
@@ -47,7 +47,7 @@
    width:  49%;
 } 
 
-.header__search{
+.header__search {
     display: flex;
    flex-flow: row nowrap;
 
@@ -60,19 +60,19 @@
     margin-right: 5%;
 }
 
-.header__search__input{
+.header__search__input {
     padding: 2%;
     background-color: transparent;
     border: none;
     width: 100%;
 }
 
-.header__search__icon{
+.header__search__icon {
     padding: 2%;
     width: 15%;
 }
 
-.header__menu{
+.header__menu {
     display: flex;
    flex-flow: row nowrap;
    justify-content: center;
@@ -80,7 +80,7 @@
    width: 100%;
 }
 
-.header__menu__link{
+.header__menu__link {
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -89,7 +89,7 @@
     margin-right: 5%;
 }
 
-.header__menu__icon{
+.header__menu__icon {
     width: 100%;
 }
 

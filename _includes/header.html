@@ -1,38 +1,37 @@
-<header class="header">
+<header>
+    <div class="header">
+        <div class="header__left">
+            <div class="header__button" id="header__button">
+                <img class="header__button__menu-img" src="assets/img/header/menu_icon.png" alt="menu_icon">
+            </div>
 
-    <div class="header__left">
-        <div class="header__button" id="header__button">
-            <img class="header__button__menu-img" id="header__button" src="assets/img/header/menu_icon.png"
-                alt="menu_icon">
+            <a class="header__logo-link" href="{{site.baseurl}}index.html">
+                <img class="header__logo-link__img" src="assets/img/header/nexus_logo.png" alt="user_icon">
+            </a>
         </div>
 
-        <a class="header__logo-link" href="{{site.baseurl}}index.html">
-            <img class="header__logo-link__img" src="assets/img/header/nexus_logo.png" alt="user_icon">
-        </a>
+        <div class="header__right">
+            <div class="header__search">
+                <input class="header__search__input" type="text" placeholder="Search.." name="search">
+                <img class="header__search__icon" src="assets/img/header/lupa_icon.png" alt="search_icon">
+            </div>
+
+            <div class="header__menu">
+                <a class="header__menu__link" href="{{site.baseurl}}auth.html">
+                    <img class="header__menu__icon" src="assets/img/header/user_icon.png" alt="user_icon">
+                </a>
+                <a class="header__menu__link" href="{{site.baseurl}}contact.html">
+                    <img class="header__menu__icon" src="assets/img/header/telefono_icon.png" alt="user_icon">
+                </a>
+                <a class="header__menu__link" href="{{site.baseurl}}support.html">
+                    <img class="header__menu__icon" src="assets/img/header/mail_icon.png" alt="user_icon">
+                </a>
+                <a class="header__menu__link" href="{{site.baseurl}}index.html">
+                    <img class="header__menu__icon" src="assets/img/header/exit_icon.png" alt="user_icon">
+                </a>
+            </div>
+        </div>
     </div>
-
-    <div class="header__right">
-        <div class="header__search">
-            <input class="header__search__input" type="text" placeholder="Search.." name="search">
-            <img class="header__search__icon" src="assets/img/header/lupa_icon.png" alt="search_icon">
-        </div>
-
-        <div class="header__menu">
-            <a class="header__menu__link" href="{{site.baseurl}}auth.html">
-                <img class="header__menu__icon" src="assets/img/header/user_icon.png" alt="user_icon">
-            </a>
-            <a class="header__menu__link" href="{{site.baseurl}}contact.html">
-                <img class="header__menu__icon" src="assets/img/header/telefono_icon.png" alt="user_icon">
-            </a>
-            <a class="header__menu__link" href="{{site.baseurl}}support.html">
-                <img class="header__menu__icon" src="assets/img/header/mail_icon.png" alt="user_icon">
-            </a>
-            <a class="header__menu__link" href="{{site.baseurl}}index.html">
-                <img class="header__menu__icon" src="assets/img/header/exit_icon.png" alt="user_icon">
-            </a>
-        </div>
-    </div>
-
     {% include drop-down-menu.html %}
     <script src="assets/js/main.js"></script>
 </header>

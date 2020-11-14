@@ -1,4 +1,4 @@
-.product{
+.product {
     display: flex;
     flex-flow: row wrap;
 
@@ -7,16 +7,16 @@
     align-items: center;
 }
 
-.product__img{
+.product__img {
     width: 100%;
 }
 
-.product__title{
+.product__title {
     margin-top: 10%;
     font-size: x-large;
 }
 
-.product__colors{
+.product__colors {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
@@ -25,28 +25,28 @@
     margin-bottom: 5%;
 }
 
-.product__colors #blue{
+.product__colors__blue {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     background-image: linear-gradient(to right, rgb(0, 48, 180) , rgb(180, 180, 180));
     margin: 1%;
 }
-.product__colors #red{
+.product__colors__red {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     background-image: linear-gradient(to right, rgb(173, 0, 0) , rgb(180, 180, 180));
     margin: 1%;
 }
-.product__colors #white{
+.product__colors__white {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     background-image: linear-gradient(to right, rgb(253, 253, 253) , rgb(180, 180, 180));
     margin: 1%;
 }
-.product__colors #black{
+.product__colors__black {
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -54,11 +54,11 @@
     margin: 1%;
 }
 
-.product__upholstery__img{
+.product__upholstery__img {
     margin-bottom: 5%;
 }
 
-.product__upholstery__gallery{
+.product__upholstery__gallery {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -66,14 +66,20 @@
     margin-bottom: 5%;
 }
 
-.product__upholstery__gallery_img{
+.product__upholstery__gallery_img {
    width: 35%;
 }
 
-.product__features{
-    margin-bottom: 5%;
+.product__features {
+    margin: 9% 0;
 }
 
-#text{
-    margin-top: 2%;
+.product__features__title {
+    font-size: 1.7em;
+    font-weight: bolder;
+    margin: 2% 0 2% 0
+}
+
+.product__features__text {
+    margin: 2% 0;
 }

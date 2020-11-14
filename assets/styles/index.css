@@ -7,6 +7,10 @@
     height: 100%;
 }
 
+.index__video--hidden{
+    display: none;
+}
+
 .index__slideshow {
     background-color: rgba(0, 0, 0, 0.8);
     position: relative;
@@ -240,3 +244,4 @@
     color: black;
     padding: 3%;
 }
+

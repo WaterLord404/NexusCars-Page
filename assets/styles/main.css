@@ -6,12 +6,8 @@
 
 
 main {
-    margin-top: 3%;
-    display: flex; 
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    min-height: 70vh;
+    margin-top: 8%;
+    min-height: 60vh;
     width: 100%;
 }
 

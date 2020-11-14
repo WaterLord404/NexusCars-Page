@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<main>
+<main class="category">
     <div class="category__filters">
         <div class="category__filters__header">
             <h1 class="category__filters__header__title">Filtros</h1>
@@ -56,7 +56,9 @@ layout: default
     <article class="category__gallery">
         <div class="category__gallery__product">
             <div class="img-structure">
-                <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
+                <a href="{{site.baseurl}}product.html">
+                    <img class="category__gallery__product__image" src="assets/img/cars/coche1.jpg" alt="">
+                </a>
                 <div class="cars-btn">
                     <p>Mas Informacion</p>
                 </div>

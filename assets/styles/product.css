@@ -1,5 +1,4 @@
-.contenedor-coche{
-    margin-top: 15%;
+.product{
     display: flex;
     flex-flow: row wrap;
 
@@ -8,16 +7,16 @@
     align-items: center;
 }
 
-.contenedor-coche img{
+.product__img{
     width: 100%;
 }
 
-
-.contenedor-coche h3{
+.product__title{
+    margin-top: 10%;
     font-size: x-large;
 }
 
-.colores-coche{
+.product__colors{
     display: flex;
     flex-flow: row wrap;
     width: 100%;
@@ -26,28 +25,28 @@
     margin-bottom: 5%;
 }
 
-.colores-coche #blue{
+.product__colors #blue{
     width: 25px;
     height: 25px;
     border-radius: 50%;
     background-image: linear-gradient(to right, rgb(0, 48, 180) , rgb(180, 180, 180));
     margin: 1%;
 }
-.colores-coche #red{
+.product__colors #red{
     width: 25px;
     height: 25px;
     border-radius: 50%;
     background-image: linear-gradient(to right, rgb(173, 0, 0) , rgb(180, 180, 180));
     margin: 1%;
 }
-.colores-coche #white{
+.product__colors #white{
     width: 25px;
     height: 25px;
     border-radius: 50%;
     background-image: linear-gradient(to right, rgb(253, 253, 253) , rgb(180, 180, 180));
     margin: 1%;
 }
-.colores-coche #black{
+.product__colors #black{
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -55,11 +54,11 @@
     margin: 1%;
 }
 
-#tapiceria{
+.product__upholstery__img{
     margin-bottom: 5%;
 }
 
-.galeria-tapiceria{
+.product__upholstery__gallery{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -67,11 +66,11 @@
     margin-bottom: 5%;
 }
 
-.galeria-tapiceria img{
+.product__upholstery__gallery_img{
    width: 35%;
 }
 
-.contenedor-caracteristicas{
+.product__features{
     margin-bottom: 5%;
 }
 

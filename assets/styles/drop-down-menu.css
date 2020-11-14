@@ -34,6 +34,10 @@
     font-size: 0.9em;
 }
 
+.drop-down-submenu--hidden {
+    display: none;
+}
+
 .drop-down-submenu__list__element {
     color: black;
     padding: 1% 5%;

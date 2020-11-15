@@ -290,4 +290,9 @@
     .index__gallery__medium-size {
         width: 49.9%; 
     }
+
+    .index__slider, .index__gallery,.index__gallery,.index__contact,.index__banner,.index__adds{
+        font-size: 150%;
+    }
+
 }

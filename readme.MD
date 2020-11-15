@@ -21,7 +21,7 @@ Este proyecto se presenta a la asignatura **Desarrollo de Interfaces web**, esta
 
 * Objetivo de la web:
 
-    Es un sitio web para la venta e informacion sobre una marca de coches ficticio: **Nexus**.
+    Es un sitio web para la venta e informacion sobre una marca de coches ficticios: **Nexus**.
 
 ## Requisitos
 

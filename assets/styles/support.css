@@ -48,6 +48,7 @@
     border-radius: 10%;
     background-color: #f0f0f0;
     padding: 4%;
+    width: 33%;
     cursor: pointer;
 }
 
@@ -80,5 +81,38 @@
         background-color: #f0f0f0;
         padding: 3%;
         width: 33%;
+    }
+}
+
+@media (min-width: 1366px) {
+    .support__form__title {
+        font-weight: bold;
+        font-size: 3.3em;
+        margin-bottom: 6%;
+    }
+
+    .support__form__input {
+        border-radius: 10%;
+        border: none;
+        margin-bottom: 3%;
+        padding: 1%;
+        width: 33%;
+    }
+
+    .support__form__textarea {
+        border-radius: 10%;
+        border: none;
+        width: 33%;
+        height: 20%;
+        padding: 1%;
+        margin-bottom: 5%;
+    }
+
+    .support__form__button {
+        background-color: #f0f0f0;
+        padding: 1%;
+        width: 25%;
+        height: 10%;
+        margin-bottom: 3%;
     }
 }

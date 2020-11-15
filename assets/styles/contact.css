@@ -29,3 +29,16 @@
     margin-bottom: 2%;
     color: black;
 }
+
+
+@media (min-width: 768px) {
+    .contact__title {
+        font-size: 3em;
+    }
+    .contact__phone-mail__title, .contact__shop__title {
+        font-size: 2em;
+    }
+    .contact__phone-mail__text, .contact__shop__text, .contact__phone-mail__text__link {
+        font-size: 1.4em;
+    }
+}

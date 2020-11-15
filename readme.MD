@@ -1,8 +1,8 @@
 ## MediaQuerys Tablet
-* Auth
+* ~~Auth~~
 * About
 * ~~Category~~
-* Contact
+* ~~Contact~~
 * ~~drop-down-menu/submenu~~
 * ~~footer~~
 * ~~header~~
@@ -13,14 +13,15 @@
 
 ## MediaQuerys PC
 
+* ~~Auth~~
 * ~~Category~~
-* Contact
+* ~~Contact~~
 * ~~drop-down-menu/submenu~~
 * ~~footer~~
 * ~~header~~
 * index
 * ~~product~~
-* support
+* ~~support~~
 
 ## Javascript
 
@@ -29,5 +30,5 @@
 
 ## Bugs
 
- * Auth titulo secciones
+ * ~~Auth titulo secciones~~
  

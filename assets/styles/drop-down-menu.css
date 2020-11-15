@@ -62,3 +62,18 @@
         font-size: 1.9em;
     }
 }
+
+@media (min-width: 1366px) {
+    .drop-down-menu {
+        top: 5.5%;
+        width: 30%;
+    }
+    .drop-down-menu__list__element {
+        padding: 3% 3%;
+        font-size: 2em;
+    }
+    .drop-down-submenu__list__element {
+        padding: 1.7% 4%;
+        font-size: 1.9em;
+    }
+}

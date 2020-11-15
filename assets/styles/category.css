@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+.category__title {
+    text-align: center;
+    padding: 3% 0;
+    font-size: 2em;
+}
+
 .category__filters {
     display: flex;
     align-items: center;
@@ -125,6 +131,40 @@
         height: 45%;
         margin: 2%;
     }
+
+    .category__title {
+        font-size: 2.5em;
+    }
+
+    .category__filters__body__title {
+        font-size: 2em;
+        padding: 3% 0 3% 0;
+    }
+
+    .category__filters__body__final-list {
+        margin: 3% 7%;
+        font-size: 1.6em;
+    }
+    .category__filters__body__final-list__input {
+        width: 1.5em;
+        height: 1.5em;
+        margin-bottom: 7%;
+    }
+    
+    .category__filters__body__price-input {
+        padding: 1%;
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: transparent;
+        margin-left: 7%;
+        margin-bottom: 7%;
+        width: 33%
+    }
+
+    .category__filters__body__price-separator {
+        margin-left: 7%;
+        font-size: 2em;
+    }
  }
 
  @media (min-width: 1366px) {
@@ -145,7 +185,7 @@
     }
 
     .category__filters {
-        width: 100%;
+        width: 150%;
         padding: 2%;
         margin-top: 0;
     }
@@ -157,11 +197,41 @@
     }
     .category__filters__header {
         width: 70%;
+        padding-bottom: 6%;
         background-color:#f0f0f0;
         border: 1px solid lightslategrey;
         border-bottom: none;
     }
+
+    .category__filters__body__title {
+        font-size: 1.5em;
+        padding: 3% 0 3% 0;
+    }
+
+    .category__filters__body__final-list {
+        margin: 2% 10%;
+        font-size: 1.3em;
+    }
+    .category__filters__body__final-list__input {
+        width: 1.3em;
+        height: 1.3em;
+        margin-bottom: 4%;
+    }
+    
+    .category__filters__body__price-input {
+        padding: 1%;
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: transparent;
+        margin: 2% 0 7% 7%;
+        width: 27%
+    }
+
     .category__filters__header__title {
         margin-left: 0;
+    }
+
+    .category__title {
+        font-size: 3em;
     }
 }

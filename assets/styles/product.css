@@ -1,6 +1,6 @@
 .product {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
 
     text-align: center;
     justify-content: center;
@@ -55,6 +55,7 @@
 }
 
 .product__upholstery__img {
+    width: 100%;
     margin-bottom: 5%;
 }
 
@@ -71,15 +72,35 @@
 }
 
 .product__features {
-    margin: 9% 0;
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 5%;
 }
 
 .product__features__title {
     font-size: 1.7em;
     font-weight: bolder;
-    margin: 2% 0 2% 0
 }
 
 .product__features__text {
-    margin: 2% 0;
+    margin: 2%;
+}
+
+@media (min-width: 1366px) {
+    .product__title{
+        margin-top: 4%;
+        font-size: xx-large;
+    }
+    .product__img{
+        width: 50%;
+    }
+
+    .product__colors *{
+        width: 60px;
+        height: 60px;
+    }
+
+    .product__features{
+        font-size: xx-large;
+    }
 }

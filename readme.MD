@@ -47,4 +47,6 @@ Hemos aprendido a usar Jekyll y Github asi como a trabajar en equipo con esas he
 - Incluir videos nativos con los plugins disponibles en Jekyll
 - Agregar Media Querys para las pantallas 2k y 4k que son cada vez mas comunes.
 - Revisar las licencias del contenido multimedia (Que debido al caracter de la web no hemos tenido mas remedio que usar imagenes con restricciones de uso).
-- Agregar mas contenido a la web.
+- Agregar mas contenido a la web (Mas productos, etc).
+- Texto real para sustituir "Lorem Ipsum"
+- Cambiar la galeria de index.html para que se parezca mas al mockup original.

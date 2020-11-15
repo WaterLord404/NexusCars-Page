@@ -8,7 +8,7 @@
 * ~~header~~
 * index
 * main
-* product
+* ~~product~~
 * support
 
 
@@ -21,7 +21,7 @@
 * ~~header~~
 * index
 * main
-* product
+* ~~product~~
 * support
 
 ## Javascript

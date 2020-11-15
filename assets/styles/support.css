@@ -1,20 +1,15 @@
 
 .support {
-    width: 100%;
-    height: 100%;
     display: flex;
-    flex-flow: row wrap;
-
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .support__form {
     width: 100%;
-    height: 70vh;
+    height: 100%;
     display: flex;
     flex-flow: column nowrap;
+
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
@@ -23,11 +18,12 @@
     font-weight: bold;
     font-size: 2em;
     margin-bottom: 10%;
+    margin-top: 10%;
 }
 
 .support__form__input {
     background: #f0f0f0;
-    border-radius: 10%;
+    border-radius: 5%;
     border: none;
     margin-bottom: 5%;
     padding: 2%;
@@ -35,7 +31,7 @@
 .support__form__textarea {
     padding: 2px;
     background: #f0f0f0;
-    border-radius: 5px;
+    border-radius: 5%;
     border: none;
   
     height: 15%;
@@ -45,7 +41,7 @@
 
 .support__form__button {
     border: none;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: #f0f0f0;
     padding: 4%;
     width: 33%;
@@ -57,11 +53,11 @@
     .support__form__title {
         font-weight: bold;
         font-size: 3.3em;
-        margin-bottom: 6%;
+        margin-bottom: 3%;
     }
 
     .support__form__input {
-        border-radius: 10%;
+        border-radius: 3%;
         border: none;
         margin-bottom: 3%;
         padding: 1%;
@@ -69,7 +65,7 @@
     }
 
     .support__form__textarea {
-        border-radius: 10%;
+        border-radius: 3%;
         border: none;
         width: 33%;
         height: 20%;
@@ -81,6 +77,7 @@
         background-color: #f0f0f0;
         padding: 3%;
         width: 33%;
+        border-radius: 3%;
     }
 }
 
@@ -88,19 +85,22 @@
     .support__form__title {
         font-weight: bold;
         font-size: 3.3em;
-        margin-bottom: 6%;
+        margin-bottom: 3%;
+        margin-top: 3%;
     }
-
+    .support__form__input,.support__form__textarea{
+        font-size: x-large;
+    }
     .support__form__input {
-        border-radius: 10%;
+        border-radius: 2%;
         border: none;
         margin-bottom: 3%;
         padding: 1%;
-        width: 33%;
+      
     }
 
     .support__form__textarea {
-        border-radius: 10%;
+        border-radius: 2%;
         border: none;
         width: 33%;
         height: 20%;
@@ -109,6 +109,7 @@
     }
 
     .support__form__button {
+        border-radius: 2%;
         background-color: #f0f0f0;
         padding: 1%;
         width: 25%;

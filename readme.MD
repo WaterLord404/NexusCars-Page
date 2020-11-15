@@ -5,10 +5,9 @@
 
 1. **[Introduccion al proyecto](#introduccion-al-proyecto)**
 2. **[Requisitos](#requisitos)**
-3. **[Instalacion y configuracion del entorno](#instalacion-y-configuracion-del-entorno)**
-4. **[Usando la API REST](#usando-la-api-rest)**
-5. **[Uso de scripts](#uso-de-scripts)**
-6. **[Conclusiones](#conclusiones)**
+3. **[Conclusiones](#conclusiones)**
+4. **[Mejoras a realizar](#mejoras-a-realizar)**
+
 
 ----
 

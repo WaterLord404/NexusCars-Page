@@ -23,6 +23,10 @@
     margin-top: 10%;
 }
 
+.category__filters--hidden{
+    display: none;
+}
+
 .category__filters__header {
     padding: 0 10% 0 20%;
     margin: 0% 1%;
@@ -31,8 +35,8 @@
     align-items: center;
     justify-content: space-between;
     flex-flow: row nowrap;
-    background-color:#f0f0f0;
-    border: 1px solid lightslategrey;
+    background-color:transparent;
+    border: 1px solid black;
     border-bottom: none;
 }
 
@@ -44,15 +48,17 @@
     align-items: center;
     justify-content: space-between;
     flex-flow: row nowrap;
-    background-color:#f0f0f0;
-    border: 1px solid lightslategrey;
+    background-color:transparent;
+    border: 1px solid black;
 }
 
 .category__filters__header__title {
     text-align: center;
-    margin-top: 10px;
-    font-size: xx-large;
-    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .category__filters__header__arrow {
@@ -63,8 +69,8 @@
 .category__filters__body {
     width: 100%;
     margin: 0 0;
-    background-color: #f0f0f0;
-    border: 1px solid lightslategrey;
+    background-color:transparent;
+    border: 1px solid black;
     border-top: none;
     display: flex;
     flex-flow: column nowrap;
@@ -168,9 +174,27 @@
  }
 
  @media (min-width: 1366px) {
+    .category__filters{
+        display: none;
+    }
+
+    .category__filters__body{
+        border: none;
+    }
+
+    .category__filters--hidden{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column nowrap;
+        width: 100%;
+        padding: 2%;
+    }
+
     .category__gallery__product {
         width: 27%;
         height: 27%;
+        margin-bottom: 5%;
     }
 
     .category__filters__body__extra {
@@ -192,14 +216,14 @@
     
     .category__filters__header--closed {
         width: 70%;
-        background-color:#f0f0f0;
-        border: 1px solid lightslategrey;
+        background-color:transparent;
+        border: 1px solid black;
     }
     .category__filters__header {
         width: 70%;
         padding-bottom: 6%;
-        background-color:#f0f0f0;
-        border: 1px solid lightslategrey;
+        background-color:transparent;
+        border: 1px solid black;
         border-bottom: none;
     }
 

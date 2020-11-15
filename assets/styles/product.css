@@ -86,6 +86,12 @@
     margin: 2%;
 }
 
+@media (min-width: 768px) {
+    .product__img{
+        width: 80%;
+    }
+}
+
 @media (min-width: 1366px) {
     .product__title{
         margin-top: 4%;

@@ -6,10 +6,9 @@
 * ~~drop-down-menu/submenu~~
 * ~~footer~~
 * ~~header~~
-* index
-* main
+* ~~index~~
 * ~~product~~
-* support
+* ~~support~~
 
 
 ## MediaQuerys PC
@@ -20,7 +19,6 @@
 * ~~footer~~
 * ~~header~~
 * index
-* main
 * ~~product~~
 * support
 
@@ -31,4 +29,5 @@
 
 ## Bugs
 
- * Nothing?
+ * Auth titulo secciones
+ 

@@ -101,9 +101,13 @@
         justify-content: center;
         align-items: center;
         width:  20%;
-     }
+    }
 
-     .header__search__input{
+    .auth__login__title,.auth__login__title{
+        font-size: xx-large;
+    }
+     
+    .header__search__input{
          font-size: x-large;
-     }
+    }
 }

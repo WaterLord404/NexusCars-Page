@@ -4,7 +4,7 @@
 * ~~Category~~
 * Contact
 * ~~drop-down-menu/submenu~~
-* footer
+* ~~footer~~
 * ~~header~~
 * index
 * main
@@ -17,9 +17,18 @@
 * ~~Category~~
 * Contact
 * ~~drop-down-menu/submenu~~
-* footer
+* ~~footer~~
 * ~~header~~
 * index
 * main
 * product
 * support
+
+## Javascript
+
+ * Nothing?
+
+
+## Bugs
+
+ * Nothing?
